@@ -10,6 +10,7 @@ import Conditionalrender from './Conditionalrender';
 import Conditiontest from './conditionalrender/Conditiontest';
 import DisplayListItems from './Maping/DisplayListItems';
 import Medialist from './Maping/Medialist';
+import FetchApiData from './API/FetchApiData';
 /* import Navbar from './Navbar';
 import Bodycontainer from './Bodycontainer';
 import Footer from './Footer'; */
@@ -17,7 +18,8 @@ import Footer from './Footer'; */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Medialist />
+    <FetchApiData />
+    {/* <Medialist /> */}
   {/*   <DisplayListItems /> */}
   {/*   <Conditiontest /> */}
   {/*   <Conditionalrender /> */}
