@@ -11,6 +11,7 @@ import Conditiontest from './conditionalrender/Conditiontest';
 import DisplayListItems from './Maping/DisplayListItems';
 import Medialist from './Maping/Medialist';
 import FetchApiData from './API/FetchApiData';
+import AxiosApi from './API/AxiosApi';
 /* import Navbar from './Navbar';
 import Bodycontainer from './Bodycontainer';
 import Footer from './Footer'; */
@@ -18,7 +19,8 @@ import Footer from './Footer'; */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FetchApiData />
+    <AxiosApi />
+   {/*  <FetchApiData /> */}
     {/* <Medialist /> */}
   {/*   <DisplayListItems /> */}
   {/*   <Conditiontest /> */}
