@@ -12,6 +12,7 @@ import DisplayListItems from './Maping/DisplayListItems';
 import Medialist from './Maping/Medialist';
 import FetchApiData from './API/FetchApiData';
 import AxiosApi from './API/AxiosApi';
+import UseContext from './useContext/UseContext';
 /* import Navbar from './Navbar';
 import Bodycontainer from './Bodycontainer';
 import Footer from './Footer'; */
@@ -19,7 +20,8 @@ import Footer from './Footer'; */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AxiosApi />
+    <UseContext />
+    {/* <AxiosApi /> */}
    {/*  <FetchApiData /> */}
     {/* <Medialist /> */}
   {/*   <DisplayListItems /> */}
