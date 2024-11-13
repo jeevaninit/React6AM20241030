@@ -1,9 +1,33 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import UseContext from '../useContext/UseContext'
+import { DecAction, IncAction } from './action'
 
-const ReduxApi = () => {
+const ReduxApi = ({wn,course,duration,institute,count,  IncAction,
+  DecAction}) => {
   return (
-    <div>ReduxApi</div>
+    <div>
+      <h1>ReduxApi</h1>
+      <h1>Data from Redux: {wn}</h1>
+      <p>Course: {course}</p>
+      <p>Duration: {duration}</p>
+      <p>Institute: {institute}</p>
+      <p>Count Value:{count}</p>
+      <button onClick={IncAction}>IncAction</button>
+      <button onClick={DecAction}>DecAction</button>
+      <UseContext />
+      </div>
   )
 }
 
-export default ReduxApi
+
+const mapStateToProps=(state)=>({
+  wn:state.welcomenote,
+  course:state.mydata.course,
+  duration:state.mydata.duration,
+  institute:state.mydata.institute,
+  count:state.count,
+
+})
+
+export default connect(mapStateToProps,{IncAction,DecAction})(ReduxApi);

@@ -14,6 +14,9 @@ import FetchApiData from './API/FetchApiData';
 import AxiosApi from './API/AxiosApi';
 import UseContext from './useContext/UseContext';
 import ContextApi from './useContext/ContextApi';
+import { Provider } from 'react-redux';
+import store from './Redux/store';
+import ReduxApi from './Redux/ReduxApi';
 /* import Navbar from './Navbar';
 import Bodycontainer from './Bodycontainer';
 import Footer from './Footer'; */
@@ -21,8 +24,13 @@ import Footer from './Footer'; */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UseContext />
-    <ContextApi />
+
+<Provider store={store} >
+  <ReduxApi />
+</Provider>
+
+{/*     <UseContext />
+    <ContextApi /> */}
     {/* <AxiosApi /> */}
    {/*  <FetchApiData /> */}
     {/* <Medialist /> */}
