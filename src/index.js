@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -17,6 +18,13 @@ import ContextApi from './useContext/ContextApi';
 import { Provider } from 'react-redux';
 import store from './Redux/store';
 import ReduxApi from './Redux/ReduxApi';
+import Navbar from './Navigation/Navbar';
+import { BrowserRouter } from 'react-router-dom';
+import Container from './Navigation/Container';
+{
+  /* The following line can be included in your src/index.js or App.js file */
+}
+
 /* import Navbar from './Navbar';
 import Bodycontainer from './Bodycontainer';
 import Footer from './Footer'; */
@@ -24,11 +32,13 @@ import Footer from './Footer'; */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
+<BrowserRouter>
 <Provider store={store} >
-  <ReduxApi />
-</Provider>
+  <Navbar />
+  <Container />
 
+</Provider>
+</BrowserRouter>
 {/*     <UseContext />
     <ContextApi /> */}
     {/* <AxiosApi /> */}
