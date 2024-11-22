@@ -21,6 +21,9 @@ import ReduxApi from './Redux/ReduxApi';
 import Navbar from './Navigation/Navbar';
 import { BrowserRouter } from 'react-router-dom';
 import Container from './Navigation/Container';
+import UseCallBack from './UseMemoAndCallBack/UseCallBack';
+import UseMemo from './UseMemoAndCallBack/UseMemo';
+import { UseRef } from './UseMemoAndCallBack/UseRef';
 {
   /* The following line can be included in your src/index.js or App.js file */
 }
@@ -34,8 +37,12 @@ root.render(
   <React.StrictMode>
 <BrowserRouter>
 <Provider store={store} >
+  <UseRef />
+  <UseCallBack />
+  <UseMemo />
   <Navbar />
   <Container />
+
 
 </Provider>
 </BrowserRouter>
