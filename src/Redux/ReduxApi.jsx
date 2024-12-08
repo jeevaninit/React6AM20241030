@@ -13,8 +13,8 @@ const ReduxApi = ({wn,course,duration,institute,count,  IncAction,
       <p>Duration: {duration}</p>
       <p>Institute: {institute}</p>
       <p>Count Value:{count}</p>
-      <button onClick={IncAction}>IncAction</button>
-      <button onClick={DecAction}>DecAction</button>
+      <button onClick={IncAction}>Increase Action</button>
+      <button onClick={DecAction}>Decrease Action</button>
       <UseContext />
       </div>
   )

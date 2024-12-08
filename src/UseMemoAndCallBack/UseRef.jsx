@@ -9,7 +9,7 @@ export const UseRef = () => {
     }
 
   return (
-    <div>
+    <div className='refcontent'>
     <h2>UseRef</h2>
     <h1 ref={myRefid}>Hello am from UseRef Hook...</h1>
     <div ref={divref}>

@@ -33,10 +33,16 @@ ul li {
   margin: 5px;
   padding: 5px 20px;
   list-style: none;
+  border-radius: 30px;
 }
 ul li:hover{
   cursor: pointer;
 }
 .active {
   background-color: lightseagreen;
+}
+.refcontent button{
+border-radius: 30px;
+background-color: lightgreen;
+border: solid 1px #ddd;
 }

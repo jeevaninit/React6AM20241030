@@ -24,6 +24,8 @@ import Container from './Navigation/Container';
 import UseCallBack from './UseMemoAndCallBack/UseCallBack';
 import UseMemo from './UseMemoAndCallBack/UseMemo';
 import { UseRef } from './UseMemoAndCallBack/UseRef';
+import Counterprogram from './Counterprogram';
+import UserApp from './UserApp';
 {
   /* The following line can be included in your src/index.js or App.js file */
 }
@@ -35,14 +37,17 @@ import Footer from './Footer'; */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+{/*      */}
+<UserApp />
 <BrowserRouter>
+
 <Provider store={store} >
   <UseRef />
   <UseCallBack />
   <UseMemo />
   <Navbar />
   <Container />
-
+  <Counterprogram />
 
 </Provider>
 </BrowserRouter>
