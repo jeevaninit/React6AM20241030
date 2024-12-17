@@ -46,3 +46,52 @@ border-radius: 30px;
 background-color: lightgreen;
 border: solid 1px #ddd;
 }
+.myfrom {
+  width: 60%;
+  margin: 20px auto;
+}
+.myfrom div {
+  display: flex;
+  flex-direction: column;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  width: auto;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+.section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}

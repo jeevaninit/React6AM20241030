@@ -26,6 +26,8 @@ import UseMemo from './UseMemoAndCallBack/UseMemo';
 import { UseRef } from './UseMemoAndCallBack/UseRef';
 import Counterprogram from './Counterprogram';
 import UserApp from './UserApp';
+import CourseForm from './UserForm';
+import ApiList from './API/LocalApi';
 {
   /* The following line can be included in your src/index.js or App.js file */
 }
@@ -42,12 +44,14 @@ root.render(
 <BrowserRouter>
 
 <Provider store={store} >
+  <ApiList />
   <UseRef />
   <UseCallBack />
   <UseMemo />
   <Navbar />
   <Container />
   <Counterprogram />
+  <CourseForm />
 
 </Provider>
 </BrowserRouter>

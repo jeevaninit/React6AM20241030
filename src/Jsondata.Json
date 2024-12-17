@@ -1,0 +1,81 @@
+[
+    {
+      "title": "Angular - The Complete Guide Latest Features",
+      "description": "Angular, a TypeScript-based framework, is ideal for client-side web apps. With its comprehensive MVC architecture, two-way data binding, dependency injection, and robust tooling, it is favored for large-scale projects, offering structure and scalability.",
+      "lastUpdated": "01/01/2023",
+      "tags": ["Angular", "Web Development", "Development"],
+      "whatYouWillLearn": [
+        "Learn modern Angular, including standalone components & Signals from the ground up in great detail",
+        "Develop modern, complex, responsive and scalable web applications with Angular",
+        "Learn TypeScript, a modern JavaScript superset, along the way",
+        "Learn how to send HTTP requests, implement routing, authenticate users or handle complete forms - and much more!",
+        "Fully understand the architecture behind an Angular application and how to use it",
+        "Create single-page or fullstack applications with one of the most modern JavaScript frameworks out there"
+      ],
+      "courseIncludes": {
+        "onDemandVideo": "55.5 hours",
+        "assignments": "10",
+        "articles": "55",
+        "accessOnMobileAndTV": true,
+        "closedCaptions": true,
+        "certificateOfCompletion": true
+      },
+      "requirements": [
+        "No prior Angular knowledge is required",
+        "Basic JavaScript & web development knowledge is required"
+      ],
+      "descriptionDetails": {
+        "readyDate": "Angular 19 (June 17th 2024)",
+        "updates": "The course was re-recorded with modern features like Signals, standalone components, etc.",
+        "targetAudience": [
+          "Newcomers interested in learning Angular",
+          "Experienced frontend developers looking to enhance their skills"
+        ]
+      },
+      "content": [
+        {
+          "section": "Getting Started",
+          "lectures": 8,
+          "duration": "32m"
+        },
+        {
+          "section": "Angular Essentials - Components, Templates, Services & More",
+          "lectures": 55,
+          "duration": "4h 49m"
+        },
+        {
+          "section": "Angular Essentials - Working with Modules",
+          "lectures": 9,
+          "duration": "39m"
+        },
+        {
+          "section": "Angular Essentials - Time To Practice",
+          "lectures": 17,
+          "duration": "1h 37m"
+        },
+        {
+          "section": "Debugging Angular Apps",
+          "lectures": 4,
+          "duration": "16m"
+        },
+        {
+          "section": "Components & Templates - Deep Dive",
+          "lectures": 53,
+          "duration": "4h 16m"
+        }
+      ],
+      "instructor": {
+        "name": "Maximilian Schwarzmüller",
+        "certifications": [
+          "AWS certified",
+          "Professional Web Developer and Instructor"
+        ],
+        "ratings": 4.7,
+        "reviews": 1164999,
+        "students": 376549,
+        "courses": 63,
+        "bio": "Starting out at the age of 12, Maximilian never stopped learning new programming skills and languages. Passionate about web development, Python, and other programming languages, he became a successful freelance web developer and instructor."
+      }
+    }
+  ]
+  
