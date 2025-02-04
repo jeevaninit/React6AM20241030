@@ -28,6 +28,8 @@ import Counterprogram from './Counterprogram';
 import UserApp from './UserApp';
 import CourseForm from './UserForm';
 import ApiList from './API/LocalApi';
+import Validations from './Validations';
+
 {
   /* The following line can be included in your src/index.js or App.js file */
 }
@@ -39,11 +41,12 @@ import Footer from './Footer'; */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-{/*      */}
+
 <UserApp />
 <BrowserRouter>
 
 <Provider store={store} >
+<Validations />
   <ApiList />
   <UseRef />
   <UseCallBack />
