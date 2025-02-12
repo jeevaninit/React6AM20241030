@@ -29,6 +29,7 @@ import UserApp from './UserApp';
 import CourseForm from './UserForm';
 import ApiList from './API/LocalApi';
 import Validations from './Validations';
+import Appcurd from './CURD/Appcurd';
 
 {
   /* The following line can be included in your src/index.js or App.js file */
@@ -42,7 +43,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
+<Appcurd />
 <UserApp />
+
 <BrowserRouter>
 
 <Provider store={store} >

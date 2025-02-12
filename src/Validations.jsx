@@ -14,6 +14,8 @@ const Validations = () => {
         .required("Email is required"),
       password: Yup.string()
         .min(6, "Password must be at least 6 characters")
+        .max(10,"max 10 char.")
+     
         .required("Password is required"),
     }),
     onSubmit: (values) => {
